@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+/* ol, ul {
+	list-style: none;
+} */
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom */
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header {
+    background-color: #F96115;
+    color: white;
+    padding: 18px 0;
+}
+.header ul{
+    padding: 12px 0;
+    list-style: none;
+}
+.header ul li {
+    margin-right: 24px;
+}
+
+/* article */
+
+.item {
+    background-color: #005979;
+    height: 400px;
+    margin: 24px 0;
+    padding: 0 64px;
+    box-shadow: 9px 8px 12px black;
+}
+.item li {
+    color: #CFC7A2;
+    font-weight: 600;
+}
+.data {
+    padding-top: 24px;
+}
+.data li {
+    list-style-type: decimal;
+}
+.data2 li {
+    list-style-type: decimal;
+}
+.main {
+    background-color: #D4CEA7;
+    padding: 24px 0;
+}
+.flex2 {    
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    list-style-type: decimal;
+}
+.data3, .data4 {
+    padding-top: 24px;
+}
+.data4 li {
+    padding: 6px 0;
+    list-style-image: url(./tick.png.png);
+}
+
+
+/* article */
+
+h2 {
+    font-size: 24px;
+    padding: 12px 0;
+    color: #252C22;
+}
+.head2 {
+    padding-top: 0;
+}
+.head {
+    padding-bottom: 0;
+}
+p {
+    color: #68644F;
+    font-size: 12px;
+    padding: 0 32px;
+}
+
+/* footer */
+
+.footer {
+    background-color: #252C22;
+    color: white;
+    padding: 32px 0;
+}
+.footer ul{
+    padding: 12px 0;
+    list-style: none;
+}
+.footer ul li {
+    margin-right: 24px;
+}
+
